@@ -1,4 +1,4 @@
-FROM eclipse-tamurin:21-jre
+FROM eclipse-temurin:21-jre
 
 RUN useradd -ms /bin/bash appuser
 WORKDIR /app
